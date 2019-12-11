@@ -1,0 +1,80 @@
+body{ 
+  background: url("aoe7.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+    
+}
+@font-face {
+    font-family: perrygot;
+    src: url(perrygot-webfont.woff2) format('woff2'),
+    url(perrygot-webfont.woff) format('woff'),
+    url(PERRYGOT.ttf) format('truetype');
+    
+
+}
+
+.a1 {
+	font-family: perrygot;
+	text-align: center;
+	font-size: 77.5px ;
+ -webkit-text-stroke: 1px black;
+  color: #8E15DE;
+  text-shadow:
+  3px 3px 0 #000,
+ -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.q11:hover {
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  cursor: pointer;
+
+}
+
+.a3:hover , .a5:hover  {
+  -ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4); 
+ cursor: pointer;
+}
+
+.a3{
+transition: 0.3s;
+position: absolute;
+width: 12%;
+margin-left: 1%;
+top: 3%;
+
+}
+
+.a5{
+width: 2.5%;
+height: 2.5%;
+margin-left: 0.5%;
+margin-right: 0.5%;
+transition: 0.3s; 
+}
+.a4
+{
+margin-left: 10px;
+bottom: 20px;
+}
+
+.q1{
+  margin-left:5% 
+}
+
+.q11{
+width: 270px;
+height: 495px;
+margin-left: 3%;
+margin-right: 1%;
+margin-top: 1%;
+margin-bottom:  1%;
+transition: 0.3s;
+}
+

@@ -1,0 +1,285 @@
+
+body{ 
+  background: url("aoe9.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ 
+    
+}
+
+@font-face {
+font-family: perrygot;
+src: url(perrygot-webfont.woff2) format('woff2'),
+url(perrygot-webfont.woff) format('woff'),
+url(PERRYGOT.ttf) format('truetype');
+    
+
+}
+
+.img2{
+
+margin-left:  200px;
+margin-top:  1%;
+display: inline;
+position: absolute;
+}
+
+
+.i2{
+transition: 0.3s;
+width: 203px;
+height: 50px; 
+}
+ 
+.i3{
+	
+display: none;
+
+}
+
+.i33{
+right: 45px;
+display: inline;
+width: 30%;
+position: absolute;
+min-width: 200px;
+}
+.i44{
+right: 45px;
+display: none;
+width: 30%;
+position: absolute;
+min-width: 200px;
+}
+.i6{
+right: 15.5%;
+top: 8%;
+position: absolute;
+font-family: perrygot;
+font-size: 1.75vw;
+display: none;
+
+}
+
+.i7:hover{
+	cursor: pointer;
+}
+ 
+
+.a3:hover ,.i2:hover ,.a5:hover , .n2:hover , .i7:hover {
+  -ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4); 
+  cursor: pointer;
+ 
+}
+
+.a4
+{   margin-left: 10px;
+	position: absolute;
+    bottom: 20px;
+}
+
+.a5{
+	width: 3%;
+	height: 3%;
+	margin-left: 0.75%;
+	margin-right: 0.75%;
+    transition: 0.3s;	
+}
+.a3
+{ transition: 0.3s;
+	position: absolute;
+	width: 12%;
+	margin-left: 1%;
+	top: 3%;
+}
+@media screen and (max-width: 1250px){
+
+
+.i2{
+transition: 0.001s;
+display: none;
+}
+
+.i3{
+transition: 0.001s;
+display:inline;
+
+}
+
+.e1
+{
+	display: none;
+	width: 75%;
+	position: absolute;
+	margin-left: 8%;
+	top: 45%;
+	display: inline;
+}
+
+}
+
+@media screen and (max-width: 675px){
+.i6{
+right: 120px;
+top: 6%;
+position: absolute;
+font-family: perrygot;
+font-size: 11px;
+display: none;
+
+}
+
+
+}
+
+.arrow1{
+	background: url(sun1.png);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	animation: animateone 30s infinite linear;
+}
+.arrow2{
+	background: url(sun1.png);
+	width: 99.5%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 10; 
+	animation: animatetwo 60s infinite linear;
+	background-size: 300px;
+}
+.arrow3{
+	background: url(sun1.png);
+	width: 99.5%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 20; 
+	animation: animatethree 45s infinite linear;
+	background-size: 100px;
+}
+@keyframes animateone
+{
+	0%
+	{
+		background-position: 0px 0px
+
+	}
+	100%
+	{
+		background-position: -100px 650px
+	}
+}
+@keyframes animatetwo
+{
+	0%
+	{
+		background-position: 0px -100px
+
+	}
+	100%
+	{
+		background-position: 0px 650px
+	}
+}
+@keyframes animatethree
+{
+	0%
+	{
+		background-position: 0px 100px
+
+	}
+	100%
+	{
+		background-position: 300px 650px
+	}
+}
+
+.mySlides
+{
+	width: 50%;
+	position: absolute;
+	margin-left: 25%;
+	top: 20%;
+}
+
+.mySlides1
+
+{ 
+	width: 13%;
+	position: absolute;
+	margin-left: 85%;
+	bottom: 5%;
+}
+
+
+.modal2 
+{
+ display: none;  
+ position: fixed;
+ padding-top: 100px; 
+ width: 100%; 
+ height: 100%; 
+
+}
+
+
+.modal-content2 {
+  background-image: url("board3.jpg");
+  background-size: cover;
+  margin: auto;
+  padding: 10px;
+  border: 5px solid #000;
+  width: 50%;
+}
+
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  cursor: pointer;
+}
+.pop22
+{
+	font-family: perrygot ;
+	font-size: 20px ;
+	color:black;
+	-webkit-text-stroke: 1px black;
+	   text-shadow:
+      
+}
+.n2
+{ 
+	position: absolute;
+	width: 5%;
+	margin-left: 3%;
+	top: 35%;
+	transition: 0.3s
+}
+
+.pop11
+{
+	font-family: perrygot;
+	text-align: center;
+	font-size: 30px ;
+	color:#DEB887;
+	-webkit-text-stroke: 1px black;
+	   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	
+}
