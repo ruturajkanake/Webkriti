@@ -27,7 +27,7 @@
 <input type="text" name="email"  placeholder="Enter Email" size="12">
 &emsp;&nbsp;&nbsp;
 <input type="text" name="num" placeholder="Enter Phone Number" size="17">
-<p>Male &nbsp;<input type="radio" name="gender" value="M">&emsp; Female &nbsp;<input type="radio" name="gender" value="F"><br>Already Registered? <a href="home1.php">Click Here </a> &emsp;<input type="submit" name="sub" value="Submit"><br></p>
+<p>Male &nbsp;<input type="radio" name="gender" value="M">&emsp; Female &nbsp;<input type="radio" name="gender" value="F"><br>Already Registered? <a href="index.php">Click Here </a> &emsp;<input type="submit" name="sub" value="Submit"><br></p>
 </form>
 </div>
 <div class="a4">
@@ -117,7 +117,7 @@ if(mysqli_query($conn,$sql))
 {
 echo '<script  type="text/javascript"> 
 alert("Registration Sucessfull.");
-document.location="home1.php"
+document.location="index.php"
 </script>';
 die();	
 }

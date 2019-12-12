@@ -2,7 +2,7 @@
 session_start();
 
 if($_SESSION['log']=="N")
-header("Location:home1.php");
+header("Location:index.php");
 
 ?>
 

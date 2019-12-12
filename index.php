@@ -11,7 +11,7 @@
 <div class="arrow2"></div>
 <div class="arrow3"></div>
 <div class="arrow1"></div>
-<form action="home1.php" method="post">
+<form action="index.php" method="post">
 <input type="image" src="png1.png" class="a3" > 
 </form>
 
@@ -70,7 +70,7 @@
 <div class="modal-content">
 <span onclick="fx5()" class="close">&times;</span>
 <div class="pop1"><h1>Login</h1></div>
-<form action="home1.php" method="post">
+<form action="index.php" method="post">
 <div class="log">
 Username &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input type="text" name="u1" placeholder="Enter Username" size="15" ><br>

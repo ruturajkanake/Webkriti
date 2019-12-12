@@ -10,7 +10,7 @@ header("Location:profile.php");
 else if($_SESSION['log']=="N"){
 echo '<script  type="text/javascript"> 
 alert("Log in first.");
-document.location="home1.php"
+document.location="index.php"
 </script>';
 die();
 }
